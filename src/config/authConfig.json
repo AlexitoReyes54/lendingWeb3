@@ -1,0 +1,8 @@
+{
+    "authRequired": false,
+    "auth0Logout": true,
+    "secret": "a long, randomly-generated string stored in env",
+    "baseURL": "http://localhost:3000",
+    "clientID": "53kDtBIvCxrOl86VPiESJ0KWbUb1t8fk",
+    "issuerBaseURL": "https://dev-k7l4wleyl3pzzchu.us.auth0.com"
+  }
