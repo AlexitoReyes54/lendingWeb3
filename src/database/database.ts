@@ -1,7 +1,8 @@
 import mongoose from 'mongoose';
+require('dotenv').config()
 
 const config = {
-    database: 'mongodb+srv://admin:admin@cluster0.dlglkvz.mongodb.net/?retryWrites=true&w=majority',
+    database: process.env.DATABASE_URL as string,
 };
 
 export const database = mongoose.connect(config.database);
